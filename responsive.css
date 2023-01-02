@@ -1,0 +1,1836 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --bg-color: #1a1b29;
+
+    --scroll-color: #232546;
+
+    --text-color: #ffffff;
+
+    --text-color-blue: #0091ff;
+
+    --noactive-color: #9f9f9f;
+
+    --noactive-color2: #A8AAC3;
+
+    --big-size: 67px;
+
+    --middle-size: 24px;
+
+    --small-size: 20px;
+
+    --footer-bg: #141521;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+
+
+    body
+    {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container
+    {
+    /* padding: 10px 50px; */
+    width: 90%;
+    /* border: 1px solid; */
+    position: relative;
+    }
+
+
+    nav
+    {
+        width: 100%;
+        height: 60px;
+        padding: 10px 0;
+    }
+
+    .click__advertisement-before
+    {
+        position: absolute;
+        top: 120%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .click__advertisement-before .click__cashback,
+    .click__advertisement-before .click__market,
+    .click__advertisement-before .click__partner
+    {
+        margin: 10px 0;
+    }
+
+    .click__cashback a .cashback,
+    .click__market a .market,
+    .click__partner a .partner
+    {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .click__cashback a .cashback img,
+    .click__market a .market img,
+    .click__partner a .partner img
+    {
+        left: 75%;
+    }
+
+
+      header
+    {
+        margin-top: 200px;
+    }
+
+    #click__navbar .click__logo-market #logo img
+    {
+        width: auto;
+        height: 50px;
+    }
+    #click__navbar .click__logo-market
+    {
+        width: 50%;
+    }
+
+    #click__navbar .click__tabs
+    {
+        width: 100%;
+    }
+    #click__navbar .click__tabs .click__languages span
+    {
+        font-size: 13px;
+    }
+  
+    .click__tabs .search, 
+    .click__tabs .cabinet
+    {
+        display: none;
+    }
+    nav .click__tabs .click__burger-btn
+    {
+        cursor: pointer;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: .2s ease;
+    }
+    nav .click__tabs .click__burger-btn span
+    {
+        width: 30px;
+    }
+
+    .hidden
+    {
+        width: 300px;
+        height: 450px;
+    }
+
+
+
+    .header__left-section .click__header-title h2
+    {
+        font-weight: 100;
+    }
+
+    .header__left-section .click__header-title h1
+    {
+        font-size: 40px;
+    }
+
+    .header__left-section .click__header-title p
+    {
+        font-size: 20px;
+        color: var(--text-color-blue);
+        font-weight: 100;
+    }
+
+    .click__header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .click__header-left
+    {
+        /* border: 1px solid; */
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        order: 2;
+    }
+
+    .click__header-left .premium__twice-box
+    {
+        width: 100%;
+    }
+
+    .click__header-left .premium__twice-box .click__premium-box .click__premium-description p
+    {
+        font-size: 14px;
+    }
+
+    .click__header .click__header-right
+    {
+        width: 100%;
+        order: 1;
+    }
+    .click__header .click__header-right img
+    {
+        width: 100%;
+    }
+    
+    .click__scroll-box
+    {
+        display: block;
+    }
+
+    .click__scroll-box p
+    {
+        font-size: 14px;
+    }
+    .click__social-networks
+    {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    }
+    .click__scroll-box img
+    {
+        display: none;
+    }
+
+    .click__facebook a p,
+    .click__instagram a p,
+    .click__telegram a p
+    {
+        display: none;
+    }
+
+
+    .click__start-section
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .click__start-section .click__start-left img
+    {
+        width: 100%;
+    }
+
+    /*********** Click Up Section Responsive ***********/
+
+    #click__up
+    {
+        margin: 30rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .click__up-left
+    {
+        width: 100%;
+    }
+    .click__up-left h2
+    {
+        font-size: 30px;
+    }
+    .click__up-left h4
+    {
+        font-size: 24px;   
+        width: 100%;
+    }
+
+    .click__up-left p
+    {
+        color: var(--text-color);
+    }
+
+    .click__download-social
+    {
+        display: block;
+    }
+
+    .click__download-social a img
+    {
+        margin: 10px 0;
+    }
+
+    .click__up-right
+    {
+        width: 100%;
+    }
+
+    .click__up-right img
+    {
+        width: 100%;
+    }
+
+    /* Click Wallet */
+    #click__wallet
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .click__wallet-left,
+    .click__wallet-right
+    {
+        width: 100%;
+    }
+
+    .click__wallet-left
+    {
+        margin-top: 35rem;
+    }
+
+    .click__wallet-left h2
+    {
+        font-size: 30px;
+    }
+
+    .click__wallet-left h3
+    {
+        font-size: 20px;
+    }
+
+    .click__wallet-paying
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .click__wallet-paying .click__wallet-way
+    {
+        margin: 20px 0;
+    }
+
+    /* Click Card */
+
+    #click__card
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50rem 0;
+        text-align: center;
+    }
+
+    .click__card-left,
+    .click__card-right
+    {
+        width: 100%;
+    }
+
+
+    .click__card-left h4
+    {
+        font-size: 20px;
+    }
+
+    .click__card-left h2
+    {
+        font-size: 30px;
+    }
+
+    .click__order-card
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .click__card-right img
+    {
+        margin-top: 10rem;
+        width: 100%;
+    }
+
+
+    /* Click Partner */
+    #click__partner
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -30rem;
+    }
+
+    .click__partner-left,
+    .click__partner-right
+    {
+        width: 100%;
+        margin: 5rem 0;
+    }
+
+    .click__partner-left h2
+    {
+        font-size: 30px;
+    }
+
+    .click__partner-left p
+    {
+        font-size: 20px;
+    }
+
+    .click__partner-right img
+    {
+        display: none;
+    }
+
+    .click__about
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .click__statistic
+    {
+        margin: 20px 0;
+    }   
+
+    /********* Click News *********/
+
+    #click__news
+    {
+        margin-bottom: 10rem 0;
+        text-align: center;
+    }
+
+    .click__news-title h2
+    {
+        font-size: 40px;
+        margin: 20px 0;
+    }
+
+    .click__news-slider
+    {
+        width: 320px;
+    }
+
+    /* Footer */
+
+    #footer
+    {
+        margin-top: 10rem;
+        height: 300px;
+        background: none;
+    }
+
+    .footer__company-about
+    {
+        display: none;
+    }
+
+    .footer__company-about:first-child
+    {
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+    .footer__container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__finish
+    {
+        position: absolute;
+        top: 70%;
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer__social ul li a span
+    {
+        display: none;
+    }
+
+    .footer-site__experience-date p
+    {
+        font-size: 12px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+
+
+    body
+    {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container
+    {
+    /* padding: 10px 50px; */
+    width: 90%;
+    /* border: 1px solid; */
+    position: relative;
+    }
+
+
+    nav
+    {
+        width: 100%;
+        height: 60px;
+        padding: 10px 0;
+    }
+
+    .click__advertisement-before
+    {
+        position: absolute;
+        top: 120%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .click__advertisement-before .click__cashback,
+    .click__advertisement-before .click__market,
+    .click__advertisement-before .click__partner
+    {
+        margin: 10px 0;
+    }
+
+    .click__cashback a .cashback,
+    .click__market a .market,
+    .click__partner a .partner
+    {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .click__cashback a .cashback img,
+    .click__market a .market img,
+    .click__partner a .partner img
+    {
+        left: 75%;
+    }
+
+
+      header
+    {
+        margin-top: 200px;
+    }
+
+    #click__navbar .click__logo-market #logo img
+    {
+        width: auto;
+        height: 50px;
+    }
+    #click__navbar .click__logo-market
+    {
+        width: 50%;
+    }
+
+    #click__navbar .click__tabs
+    {
+        width: 100%;
+    }
+    #click__navbar .click__tabs .click__languages span
+    {
+        font-size: 13px;
+    }
+  
+    .click__tabs .search, 
+    .click__tabs .cabinet
+    {
+        display: none;
+    }
+    nav .click__tabs .click__burger-btn
+    {
+        cursor: pointer;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: .2s ease;
+    }
+    nav .click__tabs .click__burger-btn span
+    {
+        width: 30px;
+    }
+
+    .hidden
+    {
+        width: 300px;
+        height: 450px;
+    }
+
+
+
+    .header__left-section .click__header-title h2
+    {
+        font-weight: 100;
+    }
+
+    .header__left-section .click__header-title h1
+    {
+        font-size: 40px;
+    }
+
+    .header__left-section .click__header-title p
+    {
+        font-size: 20px;
+        color: var(--text-color-blue);
+        font-weight: 100;
+    }
+
+    .click__header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .click__header-left
+    {
+        /* border: 1px solid; */
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        order: 2;
+    }
+
+    .click__header-left .premium__twice-box
+    {
+        width: 100%;
+    }
+
+    .click__header-left .premium__twice-box .click__premium-box .click__premium-description p
+    {
+        font-size: 14px;
+    }
+
+    .click__header .click__header-right
+    {
+        width: 100%;
+        order: 1;
+    }
+    .click__header .click__header-right img
+    {
+        width: 100%;
+    }
+    
+    .click__scroll-box
+    {
+        display: block;
+    }
+
+    .click__scroll-box p
+    {
+        font-size: 14px;
+    }
+    .click__social-networks
+    {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    }
+    .click__scroll-box img
+    {
+        display: none;
+    }
+
+    .click__facebook a p,
+    .click__instagram a p,
+    .click__telegram a p
+    {
+        display: none;
+    }
+
+
+    .click__start-section
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .click__start-section .click__start-left img
+    {
+        width: 100%;
+    }
+
+    /*********** Click Up Section Responsive ***********/
+
+    #click__up
+    {
+        margin: 30rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .click__up-left
+    {
+        width: 100%;
+    }
+    .click__up-left h2
+    {
+        font-size: 30px;
+    }
+    .click__up-left h4
+    {
+        font-size: 24px;   
+        width: 100%;
+    }
+
+    .click__up-left p
+    {
+        color: var(--text-color);
+    }
+
+    .click__download-social
+    {
+        display: block;
+    }
+
+    .click__download-social a img
+    {
+        margin: 10px 0;
+    }
+
+    .click__up-right
+    {
+        width: 100%;
+    }
+
+    .click__up-right img
+    {
+        width: 100%;
+    }
+
+    /* Click Wallet */
+    #click__wallet
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .click__wallet-left,
+    .click__wallet-right
+    {
+        width: 100%;
+    }
+
+    .click__wallet-left
+    {
+        margin-top: 35rem;
+    }
+
+    .click__wallet-left h2
+    {
+        font-size: 30px;
+    }
+
+    .click__wallet-left h3
+    {
+        font-size: 20px;
+    }
+
+    .click__wallet-paying
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .click__wallet-paying .click__wallet-way
+    {
+        margin: 20px 0;
+    }
+
+    /* Click Card */
+
+    #click__card
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50rem 0;
+        text-align: center;
+    }
+
+    .click__card-left,
+    .click__card-right
+    {
+        width: 100%;
+    }
+
+
+    .click__card-left h4
+    {
+        font-size: 20px;
+    }
+
+    .click__card-left h2
+    {
+        font-size: 30px;
+    }
+
+    .click__order-card
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .click__card-right img
+    {
+        margin-top: 10rem;
+        width: 100%;
+    }
+
+
+    /* Click Partner */
+    #click__partner
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -30rem;
+    }
+
+    .click__partner-left,
+    .click__partner-right
+    {
+        width: 100%;
+        margin: 5rem 0;
+    }
+
+    .click__partner-left h2
+    {
+        font-size: 30px;
+    }
+
+    .click__partner-left p
+    {
+        font-size: 20px;
+    }
+
+    .click__partner-right img
+    {
+        display: none;
+    }
+
+    .click__about
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .click__statistic
+    {
+        margin: 20px 0;
+    }   
+
+    /********* Click News *********/
+
+    #click__news
+    {
+        margin-bottom: 10rem 0;
+        text-align: center;
+    }
+
+    .click__news-title h2
+    {
+        font-size: 40px;
+        margin: 20px 0;
+    }
+
+    .click__news-slider
+    {
+        width: 320px;
+    }
+
+    /* Footer */
+
+    #footer
+    {
+        margin-top: 10rem;
+        height: 300px;
+        background: none;
+    }
+
+    .footer__company-about
+    {
+        display: none;
+    }
+
+    .footer__company-about:first-child
+    {
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+    .footer__container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__finish
+    {
+        position: absolute;
+        top: 70%;
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer__social ul li a span
+    {
+        display: none;
+    }
+
+    .footer-site__experience-date p
+    {
+        font-size: 12px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+
+
+        body
+        {
+            display: flex;
+            /* flex-direction: column; */
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+    
+        .container
+        {
+        /* padding: 10px 50px; */
+        width: 90%;
+        /* border: 1px solid; */
+        position: relative;
+        }
+    
+    
+        nav
+        {
+            width: 100%;
+            height: 60px;
+            padding: 10px 0;
+        }
+    
+        .click__advertisement-before
+        {
+            position: absolute;
+            top: 120%;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    
+        .click__advertisement-before .click__cashback,
+        .click__advertisement-before .click__market,
+        .click__advertisement-before .click__partner
+        {
+            margin: 10px 0;
+        }
+    
+        .click__cashback a .cashback,
+        .click__market a .market,
+        .click__partner a .partner
+        {
+            display: flex;
+            justify-content: start;
+            width: 100%;
+            padding: 5px 10px;
+        }
+    
+        .click__cashback a .cashback img,
+        .click__market a .market img,
+        .click__partner a .partner img
+        {
+            left: 75%;
+        }
+    
+    
+          header
+        {
+            margin-top: 200px;
+        }
+    
+        #click__navbar .click__logo-market #logo img
+        {
+            width: auto;
+            height: 50px;
+        }
+        #click__navbar .click__logo-market
+        {
+            width: 50%;
+        }
+    
+        #click__navbar .click__tabs
+        {
+            width: 100%;
+        }
+        #click__navbar .click__tabs .click__languages span
+        {
+            font-size: 13px;
+        }
+      
+        .click__tabs .search, 
+        .click__tabs .cabinet
+        {
+            display: none;
+        }
+        nav .click__tabs .click__burger-btn
+        {
+            cursor: pointer;
+            position: relative;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: .2s ease;
+        }
+        nav .click__tabs .click__burger-btn span
+        {
+            width: 30px;
+        }
+    
+        .hidden
+        {
+            width: 300px;
+            height: 450px;
+        }
+    
+    
+    
+        .header__left-section .click__header-title h2
+        {
+            font-weight: 100;
+        }
+    
+        .header__left-section .click__header-title h1
+        {
+            font-size: 40px;
+        }
+    
+        .header__left-section .click__header-title p
+        {
+            font-size: 20px;
+            color: var(--text-color-blue);
+            font-weight: 100;
+        }
+    
+        .click__header
+        {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .click__header-left
+        {
+            /* border: 1px solid; */
+            width: 100%;
+            display: block;
+            justify-content: space-between;
+            order: 2;
+        }
+    
+        .click__header-left .premium__twice-box
+        {
+            width: 100%;
+        }
+    
+        .click__header-left .premium__twice-box .click__premium-box .click__premium-description p
+        {
+            font-size: 14px;
+        }
+    
+        .click__header .click__header-right
+        {
+            width: 100%;
+            order: 1;
+        }
+        .click__header .click__header-right img
+        {
+            width: 100%;
+        }
+        
+        .click__scroll-box
+        {
+            display: block;
+        }
+    
+        .click__scroll-box p
+        {
+            font-size: 14px;
+        }
+        .click__social-networks
+        {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        .click__scroll-box img
+        {
+            display: none;
+        }
+    
+        .click__facebook a p,
+        .click__instagram a p,
+        .click__telegram a p
+        {
+            display: none;
+        }
+    
+    
+        .click__start-section
+        {
+            display: block;
+            text-align: center;
+        }
+    
+        .click__start-section .click__start-left img
+        {
+            width: 100%;
+        }
+    
+        /*********** Click Up Section Responsive ***********/
+    
+        #click__up
+        {
+            margin: 30rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+        .click__up-left
+        {
+            width: 100%;
+        }
+        .click__up-left h2
+        {
+            font-size: 30px;
+        }
+        .click__up-left h4
+        {
+            font-size: 24px;   
+            width: 100%;
+        }
+    
+        .click__up-left p
+        {
+            color: var(--text-color);
+        }
+    
+        .click__download-social
+        {
+            display: block;
+        }
+    
+        .click__download-social a img
+        {
+            margin: 10px 0;
+        }
+    
+        .click__up-right
+        {
+            width: 100%;
+        }
+    
+        .click__up-right img
+        {
+            width: 100%;
+        }
+    
+        /* Click Wallet */
+        #click__wallet
+        {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .click__wallet-left,
+        .click__wallet-right
+        {
+            width: 100%;
+        }
+    
+        .click__wallet-left
+        {
+            margin-top: 35rem;
+        }
+    
+        .click__wallet-left h2
+        {
+            font-size: 30px;
+        }
+    
+        .click__wallet-left h3
+        {
+            font-size: 20px;
+        }
+    
+        .click__wallet-paying
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .click__wallet-paying .click__wallet-way
+        {
+            margin: 20px 0;
+        }
+    
+        /* Click Card */
+    
+        #click__card
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 50rem 0;
+            text-align: center;
+        }
+    
+        .click__card-left,
+        .click__card-right
+        {
+            width: 100%;
+        }
+    
+    
+        .click__card-left h4
+        {
+            font-size: 20px;
+        }
+    
+        .click__card-left h2
+        {
+            font-size: 30px;
+        }
+    
+        .click__order-card
+        {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .click__card-right img
+        {
+            margin-top: 10rem;
+            width: 100%;
+        }
+    
+    
+        /* Click Partner */
+        #click__partner
+        {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: -30rem;
+        }
+    
+        .click__partner-left,
+        .click__partner-right
+        {
+            width: 100%;
+            margin: 5rem 0;
+        }
+    
+        .click__partner-left h2
+        {
+            font-size: 30px;
+        }
+    
+        .click__partner-left p
+        {
+            font-size: 20px;
+        }
+    
+        .click__partner-right img
+        {
+            display: none;
+        }
+    
+        .click__about
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .click__statistic
+        {
+            margin: 20px 0;
+        }   
+    
+        /********* Click News *********/
+    
+        #click__news
+        {
+            margin-bottom: 10rem 0;
+            text-align: center;
+        }
+    
+        .click__news-title h2
+        {
+            font-size: 40px;
+            margin: 20px 0;
+        }
+    
+        .click__news-slider
+        {
+            width: 320px;
+        }
+    
+        /* Footer */
+    
+        #footer
+        {
+            margin-top: 10rem;
+            height: 300px;
+            background: none;
+        }
+    
+        .footer__company-about
+        {
+            display: none;
+        }
+    
+        .footer__company-about:first-child
+        {
+            display: block;
+            position: absolute;
+            left: 0;
+        }
+        .footer__container
+        {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .footer__finish
+        {
+            position: absolute;
+            top: 70%;
+            display: flex;
+            flex-direction: column; 
+            width: 100%;
+            padding: 0;
+            text-align: center;
+        }
+    
+        .footer__social ul li a span
+        {
+            display: none;
+        }
+    
+        .footer-site__experience-date p
+        {
+            font-size: 12px;
+        }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1199px) {
+
+
+        body
+        {
+            display: flex;
+            /* flex-direction: column; */
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+    
+        .container
+        {
+        /* padding: 10px 50px; */
+        width: 90%;
+        /* border: 1px solid; */
+        position: relative;
+        }
+    
+    
+        nav
+        {
+            width: 100%;
+            height: 60px;
+            padding: 10px 0;
+        }
+    
+        .click__advertisement-before
+        {
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+    
+        .click__advertisement-before .click__cashback,
+        .click__advertisement-before .click__market,
+        .click__advertisement-before .click__partner
+        {
+            margin: 10px 0;
+        }
+    
+        .click__cashback a .cashback,
+        .click__market a .market,
+        .click__partner a .partner
+        {
+            display: flex;
+            justify-content: start;
+            width: 100%;
+            padding: 5px 10px;
+        }
+    
+        .click__cashback a .cashback img,
+        .click__market a .market img,
+        .click__partner a .partner img
+        {
+            left: 75%;
+        }
+    
+    
+          header
+        {
+            margin-top: 200px;
+        }
+    
+        #click__navbar .click__logo-market #logo img
+        {
+            width: auto;
+            height: 50px;
+        }
+        #click__navbar .click__logo-market
+        {
+            width: 50%;
+        }
+    
+        #click__navbar .click__tabs
+        {
+            width: 100%;
+        }
+        #click__navbar .click__tabs .click__languages span
+        {
+            font-size: 13px;
+        }
+      
+        .click__tabs .search, 
+        .click__tabs .cabinet
+        {
+            display: none;
+        }
+        nav .click__tabs .click__burger-btn
+        {
+            cursor: pointer;
+            position: relative;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: .2s ease;
+        }
+        nav .click__tabs .click__burger-btn span
+        {
+            width: 30px;
+        }
+    
+        .hidden
+        {
+            width: 300px;
+            height: 450px;
+        }
+    
+    
+    
+        .header__left-section .click__header-title h2
+        {
+            font-weight: 100;
+        }
+    
+        .header__left-section .click__header-title h1
+        {
+            font-size: 40px;
+        }
+    
+        .header__left-section .click__header-title p
+        {
+            font-size: 20px;
+            color: var(--text-color-blue);
+            font-weight: 100;
+        }
+    
+        .click__header
+        {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .click__header-left
+        {
+            /* border: 1px solid; */
+            width: 100%;
+            display: block;
+            justify-content: space-between;
+            order: 2;
+        }
+    
+        .click__header-left .premium__twice-box
+        {
+            width: 100%;
+        }
+    
+        .click__header-left .premium__twice-box .click__premium-box .click__premium-description p
+        {
+            font-size: 14px;
+        }
+    
+        .click__header .click__header-right
+        {
+            width: 100%;
+            order: 1;
+        }
+        .click__header .click__header-right img
+        {
+            width: 100%;
+        }
+        
+        .click__scroll-box
+        {
+            display: block;
+        }
+    
+        .click__scroll-box p
+        {
+            font-size: 14px;
+        }
+        .click__social-networks
+        {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        .click__scroll-box img
+        {
+            display: none;
+        }
+    
+        .click__facebook a p,
+        .click__instagram a p,
+        .click__telegram a p
+        {
+            display: none;
+        }
+    
+    
+        .click__start-section
+        {
+            display: block;
+            text-align: center;
+        }
+    
+        .click__start-section .click__start-left img
+        {
+            width: 100%;
+        }
+    
+        /*********** Click Up Section Responsive ***********/
+    
+        #click__up
+        {
+            margin: 30rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+        .click__up-left
+        {
+            width: 100%;
+        }
+        .click__up-left h2
+        {
+            font-size: 30px;
+        }
+        .click__up-left h4
+        {
+            font-size: 24px;   
+            width: 100%;
+        }
+    
+        .click__up-left p
+        {
+            color: var(--text-color);
+        }
+    
+        .click__download-social
+        {
+            display: block;
+        }
+    
+        .click__download-social a img
+        {
+            margin: 10px 0;
+        }
+    
+        .click__up-right
+        {
+            width: 100%;
+        }
+    
+        .click__up-right img
+        {
+            width: 100%;
+        }
+    
+        /* Click Wallet */
+        #click__wallet
+        {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .click__wallet-left,
+        .click__wallet-right
+        {
+            width: 100%;
+        }
+    
+        .click__wallet-left
+        {
+            margin-top: 35rem;
+        }
+    
+        .click__wallet-left h2
+        {
+            font-size: 30px;
+        }
+    
+        .click__wallet-left h3
+        {
+            font-size: 20px;
+        }
+    
+        .click__wallet-paying
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .click__wallet-paying .click__wallet-way
+        {
+            margin: 20px 0;
+        }
+    
+        /* Click Card */
+    
+        #click__card
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 50rem 0;
+            text-align: center;
+        }
+    
+        .click__card-left,
+        .click__card-right
+        {
+            width: 100%;
+        }
+    
+    
+        .click__card-left h4
+        {
+            font-size: 20px;
+        }
+    
+        .click__card-left h2
+        {
+            font-size: 30px;
+        }
+    
+        .click__order-card
+        {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .click__card-right img
+        {
+            margin-top: 10rem;
+            width: 100%;
+        }
+    
+    
+        /* Click Partner */
+        #click__partner
+        {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: -30rem;
+        }
+    
+        .click__partner-left,
+        .click__partner-right
+        {
+            width: 100%;
+            margin: 5rem 0;
+        }
+    
+        .click__partner-left h2
+        {
+            font-size: 30px;
+        }
+    
+        .click__partner-left p
+        {
+            font-size: 20px;
+        }
+    
+        .click__partner-right img
+        {
+            display: none;
+        }
+    
+        .click__about
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .click__statistic
+        {
+            margin: 20px 0;
+        }   
+    
+        /********* Click News *********/
+    
+        #click__news
+        {
+            margin-bottom: 10rem 0;
+            text-align: center;
+        }
+    
+        .click__news-title h2
+        {
+            font-size: 40px;
+            margin: 20px 0;
+        }
+    
+        .click__news-slider
+        {
+            width: 320px;
+        }
+    
+        /* Footer */
+    
+        #footer
+        {
+            margin-top: 10rem;
+            height: 300px;
+            background: none;
+        }
+    
+        .footer__company-about
+        {
+            display: none;
+        }
+    
+        .footer__company-about:first-child
+        {
+            display: block;
+            position: absolute;
+            left: 0;
+        }
+        .footer__container
+        {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .footer__finish
+        {
+            position: absolute;
+            top: 70%;
+            display: flex;
+            flex-direction: column; 
+            width: 100%;
+            padding: 0;
+            text-align: center;
+        }
+    
+        .footer__social ul li a span
+        {
+            display: none;
+        }
+    
+        .footer-site__experience-date p
+        {
+            font-size: 12px;
+        }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
